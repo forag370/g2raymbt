@@ -1,5 +1,5 @@
 {
-  "name": "bright-edge-65486b",
+  "name": "nova-bridge-a18d03",
   "build": {
     "dockerfile": "Dockerfile",
     "context": "."
@@ -15,7 +15,7 @@
   "postAttachCommand": "gh codespace ports visibility 443:public -c $CODESPACE_NAME && bash /usr/local/bin/start.sh",
   "portsAttributes": {
     "443": {
-      "label": "bright-edge-65486b",
+      "label": "nova-bridge-a18d03",
       "protocol": "http",
       "onAutoForward": "silent"
     }
